@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: Open Sans;
+    font-family: "Open-Sans";
     src: url(../assets/Open_Sans.zip);
 }
 
@@ -259,20 +259,58 @@ main .local p3 {
 /********* ENDEREÇO **********/
 
 main .endereço {
-    height: 600px;
+    height: 500px;
     background-image: url(../imagens/imagem-fundo-endereco.png);
 }
 
 main .endereço h1 {
     position: absolute;
     margin-top: 90px;
-    margin-left: 150px;
+    margin-left: 210px;
     font-family: "Bebas_Neue";
     font-size: 64px;
     text-transform: uppercase;
     color: #FFAF00;
-
 }
+
+main .alameda {
+    display: flex;
+    margin-top: -180px;
+    margin-left: 210px;
+    width: 900px;
+    height: 203px;
+    padding-left: 60px;
+    align-items: center;
+    border: 2.5px solid #340B65;
+    background-color: #010010;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: #580bb6;
+}
+
+main .rota {
+ display: flex;
+ margin-left: 780px;
+ padding-top: 100px;
+ }
+
+
+ /********* FOOTER *********/
+
+ footer {
+    background-color: red;
+    height: 80px;
+ }
+
+ footer .container-grid {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    font-family: "Open-Sans";
+    color: white;
+}
+ 
+
 
 
 
