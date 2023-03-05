@@ -255,7 +255,6 @@ main .local p3 {
     margin-left: 910px;
 }
 
-
 /********* ENDEREÇO **********/
 
 main .endereço {
@@ -285,7 +284,7 @@ main .alameda {
     background-color: #010010;
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
-    color: #580bb6;
+    color: #9f51ff;
 }
 
 main .rota {
