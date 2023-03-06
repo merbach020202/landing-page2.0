@@ -22,6 +22,7 @@
     box-sizing: border-box;
 }
 
+/* DESKTOP FIRST */
 
 /* classes genéricas */
 
@@ -70,6 +71,8 @@ header nav a {
     padding: 15px 20px;
     border-radius: 8px;
 }
+
+header .menu
 
 
 /* quando o mouse passa em cima, a cor muda */
@@ -307,6 +310,25 @@ main .rota {
     padding-top: 35px;
     font-family: "Open-Sans";
     color: white;
+}
+
+
+
+
+
+/*********** MEDIA QUERIES **********/
+/* tablets >=768px ate 992px */
+@media screen and (max-width: 991px) {
+
+}
+    
+
+/* smartphones >=0 ate 767px*/
+@media screen and (max-width: 991px){
+    header #menu-mobile {
+        display: block;
+        color: white;
+    }
 }
  
 
