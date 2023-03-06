@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "Bebas_Neue";
-    src: url(../assets/folder/Bebas_Neue/BebasNeue-Regular.ttf);
+    font-family: "Bebas-Neue";
+    src: url(../assets/Bebas/BebasNeue-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Courier Prime";
-    src: url(../assets/folder/Courier_Prime/CourierPrime-Bold.ttf);
+    font-family: "Courier-Prime";
+    src: url(../assets/Courier_Prime);
 }
 
 @font-face {
@@ -60,7 +60,7 @@ header nav {
 }
 
 header nav a {
-    font-family: "Bebas Neue";
+    font-family: "Bebas-Neue";
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -104,7 +104,7 @@ main .banner-flex #banner-infobox {
 
 main .banner-flex h1 {
     border-bottom: 1px solid #FFAF00;
-    font-family: "Bebas Neue";
+    font-family: "Bebas-Neue";
     font-size: 93px;
     color: white;
 
@@ -130,10 +130,10 @@ section .layout-grid {
 section .layout-grid h2 {
     margin-top: 40px;
     margin-bottom: 40px;
-    font-family: Bebas Neue;
+    font-family: "Bebas-Neue";
     font-size: 64px;
     text-transform: uppercase;
-    color: #F9003D;
+    color: #F9003D
 }
 
 section .linha {
@@ -148,7 +148,7 @@ section .linha h3 {
 }
 
 section .linha h4 {
-    font-family: "Bebas Neue";
+    font-family: "Bebas-Neue";
     font-size: 64px;
     color: #FFAF00;
     margin-bottom: 30px;
@@ -266,7 +266,7 @@ main .endereço h1 {
     position: absolute;
     margin-top: 90px;
     margin-left: 210px;
-    font-family: "Bebas_Neue";
+    font-family: "Bebas-Neue";
     font-size: 64px;
     text-transform: uppercase;
     color: #FFAF00;
