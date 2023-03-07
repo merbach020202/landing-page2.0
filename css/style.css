@@ -89,8 +89,8 @@ header nav a:hover {
 main .banner {
     height: 740px;
     background-image: url(../imagens/imagem-fundo-banner.png);
-    /* usado para não duplicar a */
-    background-repeat: no-repeat;
+    /* usado para não duplicar a imagem */
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: bottom;
 }
@@ -110,7 +110,7 @@ main .banner-flex h1 {
     font-family: "Bebas-Neue";
     font-size: 93px;
     color: white;
-
+    width: 530px ;
 }
 
 main .banner-flex p {
