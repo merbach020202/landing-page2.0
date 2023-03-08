@@ -45,14 +45,18 @@
 
     main .banner-flex h1 {
         font-size: 40px;
+        width: 230px;
+        margin-left: 10px;
+        border: none;
     }
 
-    main .banner-flex #banner-infobox {
-        max-width: 340px;
-        border: 1px solid yellow;
+    main .banner-flex p {
+        font-size: 45px;
+        margin-left: 10px;
     }
-    main .banner-flex #banner-infobox img {
-        max-width: 355px;
+
+    main .banner-flex img {
+        display: none;
     }
 }
 
