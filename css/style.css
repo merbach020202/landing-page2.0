@@ -318,18 +318,11 @@ main .rota {
 
 /*********** MEDIA QUERIES **********/
 /* tablets >=768px ate 992px */
-@media screen and (max-width: 991px) {
 
-}
+
     
 
-/* smartphones >=0 ate 767px*/
-@media screen and (max-width: 991px){
-    header #menu-mobile {
-        display: block;
-        color: white;
-    }
-}
+
  
 
 
